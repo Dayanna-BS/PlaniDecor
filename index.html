@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PlaniDecor">
+  <title>Planificación y decoración de eventos sociales</title>
+  <link rel="stylesheet" href="styles1.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <!-- Cabecera con navegación -->
+  <header>
+    <div class="header-container">
+      <img alt="logo" src="logo.jpg" width="10%" height="10%"/>
+      <h1>Planificación y Decoración de Eventos Sociales</h1>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#eventos">Eventos</a></li>
+          <li><a href="#clientes">Clientes</a></li>
+          <li><a href="#multimedia">Multimedia</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contenido Principal -->
+  <main>
+    <!-- Sección de Inicio/Introducción -->
+    <section id="inicio">
+      <h2>Bienvenidos</h2>
+      <p>Nos encanta celebrar contigo esos momentos únicos e irrepetibles. En PlaniDecor, nos especializamos en la planificación y decoración de eventos sociales que dejan huella: bodas, cumpleaños, aniversarios, baby showers, eventos corporativos y cualquier ocasión especial que merezca ser recordada.
+         Creemos que cada detalle cuenta y que la magia está en la personalización. Por eso, nos dedicamos a crear ambientes que reflejen tu estilo, tu historia y tus sueños, cuidando cada rincón con pasión y creatividad.
+         Déjanos transformar tus ideas en experiencias inolvidables.</p>
+      <figure>
+        <img src="planidecor.jpeg" alt="Creando espacios 100% personalizados">
+        <figcaption><b>Creando espacios 100% personalizados</b></figcaption>
+      </figure>
+    </section>
+
+    <!-- Sección de Eventos -->
+    <section id="eventos">
+      <h2>Tipos de Eventos</h2>
+      
+      <!-- Artículos con información de eventos -->
+      <article>
+        <h3>Bodas</h3>
+        <p>Planificamos y decoramos uno de los días mas importantes de tu vida. El estilo que prefieras y tus ideas no tienen límites. Por tiempo limitado incluimos las despedidas de solter@s. </p>
+      </article>
+      <article>
+        <h3>Cumpleaños</h3>
+        <p>Ya sea tu cumpleaños o de una persona especial, nos encargamos de que sea un momento inolvidable para ustedes.</p>
+      </article>
+      <article>
+        <h3>Propuestas de matrimonio</h3>
+        <p>Decidiste hacer la pregunta pero necesitas ayuda con los detalles de la propuesta? Nosotros nos encargamos de eso.</p>
+      </article>
+      <article>
+        <h3>Aniversarios</h3>
+        <p>Celebra los años al lado de tu persona especial en grande. </p>
+      </article>
+      <article>
+        <h3>Eventos corporativos</h3>
+        <p>Realizamos los mejores eventos con el prestigio que tu compañia se merece.</p>
+      </article>
+      <article>
+        <h3>Baby showers, Gender reveals y Baby blessings</h3>
+        <p>Disfruta y celebra la llegada de tu bebé, brindanos tus ideas y nosotros lo hacemos realidad.</p>
+      </article>
+
+      <!-- Tiempo de planificación de eventos -->
+      <table>
+        <caption>Eventos</caption>
+        <thead>
+          <tr>
+            <th>Evento</th>
+            <th>Tiempo de planificación</th>
+            <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Bodas</td>
+            <td>1 año min.</td>
+            <td>Según presupuesto. Consulta nuestras promociones.</td>
+          </tr>
+          <tr>
+            <td>Cumpleaños</td>
+            <td>1 mes</td>
+            <td>Según presupuesto.</td>
+          </tr>
+          <tr>
+            <td>Propuestas de matrimonio</td>
+            <td>2 meses min.</td>
+            <td>Según presupuesto.</td>
+          </tr>
+          <tr>
+            <td>Aniversarios</td>
+            <td>1 mes</td>
+            <td>Según presupuesto.</td>
+          </tr>
+         <tr>
+            <td>Eventos corporativos</td>
+            <td>2 meses</td>
+            <td>Según presupuesto. Consulta nuestras promociones.</td>
+        </tr><tr>
+            <td>Baby showers, Gender reveals y Baby blessings</td>
+            <td>2 meses</td>
+            <td>Según presupuesto. Consulta nuestras promociones.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Sección de Clientes -->
+    <section id="clientes">
+      <h2>Opiniones de nuestros clientes corporativos destacados</h2>
+      <article>
+        <h3>Hyundai</h3>
+        <p>Excelencia y profesionalismo en cada detalle.</p>
+        <a href="https://www.hyundai.com/es/es.html">Ir a página del cliente</a>
+      </article>
+      <article>
+        <h3>Samsung</h3>
+        <p>100% recomendado, los mejores planificadores de eventos corporativos.</p>
+        <a href="https://www.samsung.com/es/">Ir a página del cliente</a>
+      </article>
+    </section>
+
+    <!-- Sección Multimedia -->
+    <section id="multimedia">
+      <h2>Video de Nuestros Eventos</h2>
+      <video controls>
+        <source src="PlaniDecor.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+      </video>
+    </section>
+
+    <!-- Sección de Contacto con formulario -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form action="enviar.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone number">Número de Teléfono Movil:</label>
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" required>
+
+        <label for="mensaje">Mensaje: (si quieres tener una cita de manera inmediata con nuestros asesores deja el día y hora disponibles para comunicarnos contigo)</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Sección FAQ con detalles desplegables -->
+    <section id="faq">
+      <h2>Preguntas Frecuentes</h2>
+      <details>
+        <summary>¿Cuáles son los precios para realizar los eventos?</summary>
+        <p>Siempre nos guiamos de acuerdo al presupuesto del cliente pero igual puedes preguntar por nuestras promociones!!</p>
+      </details>
+      <details>
+        <summary>¿Teneís opción de reembolso?</summary>
+        <p>Sí pero depende de cada evento y cuánto se haya avanzado en la planificación (reservas de locales, iglesias, espacios). Revisar el contrato antes de firmar</p>
+      </details>
+      <details>
+        <summary>¿Reciben casos de eventos urgentes?</summary>
+        <p>Todo depende de nuestra agenda pero no garantizamos en esos casos una excelencia al 100%, siempre le recomendamos al cliente reservar con anticipación.</p>
+      </details>
+    </section>
+  </main>
+
+  <!-- Barra lateral con recursos adicionales -->
+  <aside>
+    <h2>Recursos Adicionales</h2>
+    <ul>
+      <li><a href="https://www.sfera360.es/tipos-de-bodas/" target="_blank">Ideas de tipos de boda</a></li>
+      <li><a href="https://www.protocolo.org/social/celebraciones/tipos-de-aniversario-nombres-de-los-aniversarios-clasificacion-por-anos-de-convivencia.html" target="_blank">Aniversario de bodas</a></li>
+      <li><a href="https://www.wikihow.com/What-Is-a-Diamond-Birthday#:~:text=What%20is%20a%20diamond%20birthday%3F,-Download%20Article&text=A%20diamond%20birthday%20is%20when,the%20day%20you%20turn%2089." target="_blank">Tipos de cumpleaños</a></li>
+    </ul>
+  </aside>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 PlaniDecor. Todos los derechos reservados.</p>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#eventos">Eventos</a></li>
+        <li><a href="#clientes">Clientes</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
