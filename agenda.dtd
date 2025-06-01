@@ -1,0 +1,10 @@
+<!-- Debe contener solo números -->
+<!ELEMENT AgendaClientes (cliente+)>
+<!ELEMENT cliente (Nombre, Telefono, Email, Evento, Ciudad, Direccion)>
+<!ATTLIST cliente id ID #REQUIRED>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Telefono (#PCDATA)> <!-- Debe contener solo números -->
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Evento (#PCDATA)>
+<!ELEMENT Ciudad (#PCDATA)>
+<!ELEMENT Direccion (#PCDATA)>

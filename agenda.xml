@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inventario SYSTEM "agenda.dtd">
+<?xml-stylesheet type="text/xsl" href="agenda.xsl"?>
+<AgendaClientes>
+<cliente id="T7777">
+
+ <Nombre>Thiago Calderon</Nombre>
+ <Telefono>"615802493"</Telefono>
+ <Email>thiago@gmail.com</Email>
+ <Evento>Cumpleaños</Evento>
+ <Ciudad>Sevilla</Ciudad>
+ <Direccion>Calle Los justicieros 360</Direccion>
+ </cliente>
+
+ <cliente id="L8888">
+ <Nombre>Lupita Zevallos</Nombre>
+ <Telefono>"615802477"</Telefono>
+ <Email>lupita@gmail.com</Email>
+ <Evento>Boda</Evento>
+ <Ciudad>Madrid</Ciudad>
+ <Direccion>Calle Atlantico 82</Direccion>
+</cliente>
+
+</AgendaClientes>
